@@ -1,0 +1,1 @@
+after run docker-compose, your db will automatically created in this directory
