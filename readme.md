@@ -1,10 +1,8 @@
---------------------- Requirement ---------------------
+# Requirement
 - make sure docker and docker-compose has been installed
 - using php:7.4-fpm-alpine
 - using mariadb:latest for database
 - nginx for proxy
-
-
 
 --------------------- START ---------------------
 
@@ -24,7 +22,6 @@ to stop docker-compose :
 - docker-compose down
 
 
-
 i'm using nginx for redirect url. configure your url in directory /nginx/nginx.conf
 replace server_name 127.0.0.1 into your url example : azzamdev.site
 
@@ -32,5 +29,5 @@ replace server_name 127.0.0.1 into your url example : azzamdev.site
 
 
 contact me for more information
-whatsapp : +62 85655909004
-email : azzamazizi09@gmail.com
+- whatsapp : +62 85655909004
+- email : azzamazizi09@gmail.com
