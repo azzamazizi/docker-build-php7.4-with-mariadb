@@ -1,5 +1,5 @@
 --------------------- Requirement ---------------------
-- make sure docker and docker-compose has been installed.
+- make sure docker and docker-compose has been installed
 - using php:7.4-fpm-alpine
 - using mariadb:latest for database
 - nginx for proxy
@@ -7,6 +7,7 @@
 
 
 --------------------- START ---------------------
+
 step 1
 - configure your setting in docker-compose.yml
 
@@ -18,6 +19,7 @@ step 3, build your own docker images using command :
 
 step 4, run your images using command :
 - docker-compose up -d
+
 to stop docker-compose :
 - docker-compose down
 
